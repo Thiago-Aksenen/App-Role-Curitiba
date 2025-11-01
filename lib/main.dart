@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:role_curitiba/componentes/evento_comp.dart';
-import 'package:role_curitiba/views/teste_tigo.dart';
-import 'views/homepage.dart';
+import 'package:role_curitiba/views/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,7 +8,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -18,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
       ),
-      home: TesteTigo(),
+      home: Login(),
     );
   }
 }
