@@ -14,7 +14,7 @@ class _LoginState extends State<Login> {
       body: Column(
         children: [
           SizedBox(
-            height: 400,
+            height: 300,
             child: Stack(
               alignment: Alignment.topCenter,
               children: [
@@ -22,15 +22,16 @@ class _LoginState extends State<Login> {
                 Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
+                    SizedBox(height: 40),
                     Image.asset(
                       "images/logo_letra.png",
                       color: Colors.white,
-                      height: 80,
+                      height: 40,
                     ),
                     const Text(
                       "Bem vindo de volta.",
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 24,
                         fontWeight: FontWeight.bold,
                         color: Colors.white,
                       ),
@@ -41,7 +42,7 @@ class _LoginState extends State<Login> {
             ),
           ),
           Transform.translate(
-            offset: Offset(0, -30),
+            offset: Offset(0, -40),
             child: Container(
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(20),
