@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:role_curitiba/empresa/evento_item.dart';
+import 'package:role_curitiba/views/evento_item.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});

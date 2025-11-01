@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:role_curitiba/empresa/perfil_empresa.dart';
-import 'empresa/homepage.dart';
-import 'usuario/home.dart';
+import 'package:role_curitiba/componentes/evento_comp.dart';
+import 'package:role_curitiba/views/teste_tigo.dart';
+import 'views/homepage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,8 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.orangeAccent),
       ),
-      home: HomePage(),
-      debugShowCheckedModeBanner: false,
+      home: TesteTigo(),
     );
   }
 }

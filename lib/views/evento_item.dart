@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../usuario/home.dart';
 
 class EventoItem extends StatelessWidget {
   const EventoItem({super.key});
@@ -14,7 +13,7 @@ class EventoItem extends StatelessWidget {
         borderRadius: BorderRadius.circular(8.0),
         boxShadow: [
           BoxShadow(
-            color: Colors.grey.withOpacity(0.5),
+            color: Colors.grey.withValues(alpha: 0.5),
             spreadRadius: 2,
             blurRadius: 5,
             offset: const Offset(0, 3),

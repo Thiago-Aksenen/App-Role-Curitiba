@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:role_curitiba/empresa/add_evento.dart';
-import 'package:role_curitiba/empresa/perfil_empresa.dart';
+import 'package:role_curitiba/views/add_evento.dart';
+import 'package:role_curitiba/views/perfil_empresa.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});

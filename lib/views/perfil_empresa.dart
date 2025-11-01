@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:role_curitiba/empresa/add_evento.dart';
 
 class PerfilEmpresa extends StatelessWidget {
   const PerfilEmpresa({super.key});
